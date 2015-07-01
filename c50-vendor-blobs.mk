@@ -207,4 +207,13 @@ PRODUCT_COPY_FILES += \
     vendor/lge/c50/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/lge/c50/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/lge/c50/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
-    vendor/lge/c50/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so
+    vendor/lge/c50/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
+    vendor/lge/c50/proprietary/vendor/firmware/wcnss.b00:system/vendor/firmware/wcnss.b00 \
+    vendor/lge/c50/proprietary/vendor/firmware/wcnss.b01:system/vendor/firmware/wcnss.b01 \
+    vendor/lge/c50/proprietary/vendor/firmware/wcnss.b02:system/vendor/firmware/wcnss.b02 \
+    vendor/lge/c50/proprietary/vendor/firmware/wcnss.b04:system/vendor/firmware/wcnss.b04 \
+    vendor/lge/c50/proprietary/vendor/firmware/wcnss.b06:system/vendor/firmware/wcnss.b06 \
+    vendor/lge/c50/proprietary/vendor/firmware/wcnss.b09:system/vendor/firmware/wcnss.b09 \
+    vendor/lge/c50/proprietary/vendor/firmware/wcnss.b10:system/vendor/firmware/wcnss.b10 \
+    vendor/lge/c50/proprietary/vendor/firmware/wcnss.b11:system/vendor/firmware/wcnss.b11 \
+    vendor/lge/c50/proprietary/vendor/firmware/wcnss.mdt:system/vendor/firmware/wcnss.mdt
