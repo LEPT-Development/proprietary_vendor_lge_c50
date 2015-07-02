@@ -31,6 +31,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/c50/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/lge/c50/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/lge/c50/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
+    vendor/lge/c50/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
+    vendor/lge/c50/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/lge/c50/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
     vendor/lge/c50/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/lge/c50/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
@@ -45,6 +47,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/c50/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/lge/c50/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/lge/c50/proprietary/lib/libmorpho_image_stab31.so:system/lib/libmorpho_image_stab31.so \
+    vendor/lge/c50/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/c50/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lge/c50/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/lge/c50/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
@@ -108,6 +111,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/c50/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/lge/c50/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
     vendor/lge/c50/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
+    vendor/lge/c50/proprietary/lib/drm/rild:system/lib/drm/rild \
     vendor/lge/c50/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/lge/c50/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
     vendor/lge/c50/proprietary/vendor/firmware/widevine.b00:system/vendor/firmware/widevine.b00 \
